@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "project#2-shakurov-m25-555"
+name = "project2-shakurov-m25-555"
 version = "0.1.0"
 description = "Primitive database developed as a part of the second project for the Python programming course"
 authors = ["RazorRZZ <vanders97@mail.ru>"]
