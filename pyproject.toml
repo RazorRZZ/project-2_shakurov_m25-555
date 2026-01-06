@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "project#2-shakurov-m25-555"
+version = "0.1.0"
+description = "Primitive database developed as a part of the second project for the Python programming course"
+authors = ["RazorRZZ <vanders97@mail.ru>"]
+readme = "README.md"
+
+packages = [
+    { include = "src", from = "." },
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.scripts]
+database = "src.primitive_db.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
