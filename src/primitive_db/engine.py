@@ -3,25 +3,26 @@ import shlex as sh
 
 from .constants import META_FILEPATH
 from .core import (
-  create_table,
-  delete,
-  drop_table,
-  info,
-  insert,
-  list_tables,
-  select,
-  update,
+    create_table,
+    delete,
+    drop_table,
+    info,
+    insert,
+    list_tables,
+    select,
+    update,
 )
 from .parser import parser_clause
 from .utils import (
-  create_cacher,
-  load_metadata,
-  load_table_data,
-  print_help,
-  save_metadata,
-  save_table_data,
-  user_input,
+    create_cacher,
+    load_metadata,
+    load_table_data,
+    print_help,
+    save_metadata,
+    save_table_data,
+    user_input,
 )
+
 
 def run():
     print('***')

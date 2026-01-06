@@ -78,7 +78,7 @@ def save_table_data(table_name: str, data: dict) -> None:
 #Функция отображения помощи
 def print_help() -> None:
     '''
-    Идёт по умолчанию (базово) с командами и описанием и последовательно выводит их пользователю
+    Идёт по умолчанию (базово) с командами и описанием и выводит их пользователю 
     '''
     for command in COMMANDS.keys():
         print(f'<command> {command} - {COMMANDS[command]}')
