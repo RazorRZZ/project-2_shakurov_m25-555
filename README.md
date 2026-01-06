@@ -24,4 +24,4 @@
 
 Запись asciinema:
 
-Вот тут
+https://asciinema.org/a/si355GJCn3SwGBnzlHbXyHquN
