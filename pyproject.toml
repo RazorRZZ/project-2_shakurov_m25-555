@@ -13,7 +13,7 @@ packages = [
 python = "^3.12"
 
 [tool.poetry.scripts]
-database = "src.primitive_db.main:main"
+project = "src.primitive_db.main:main"
 
 [build-system]
 requires = ["poetry-core"]
