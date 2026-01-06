@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-#from .engine import run
+from .engine import run
 
 
 def main():
     print('\nDB project is running!\n')
-    #run()
+    run()
 
 if __name__ == "__main__":
     main()
